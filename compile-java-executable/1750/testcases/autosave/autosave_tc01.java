@@ -28,8 +28,6 @@ public class tc01 {
 		tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
 		tg.click("ele_firstname556", 1);
 		tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
-		tg.click("ele_firstname556", 1);
-		tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
 		tg.type("ele_firstname556", "hiii");
 		tg.wait(5);
 		tg.close();
