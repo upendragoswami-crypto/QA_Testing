@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  <locator name="ele_firstname556">
+    <element type="xpath">//input[@placeholder='First Name']</element>
+    <element type="xpath">//form[@id='basicBootstrapForm']/div/div/input</element>
+    <element type="css">input.form-control.ng-pristine.ng-untouched.ng-invalid.ng-invalid-required</element>
+    <element type="css">form#basicBootstrapForm &gt; div &gt; div &gt; inputTGWEBCOMMA5</element>
+    <element type="xpath">//input</element>
+    <element type="class">form-control ng-pristine ng-untouched ng-invalid ng-invalid-requiredTGWEBCOMMA1</element>
+    <element type="image">http://192.168.4.15/s/ele-imgs/1750/17225.png</element>
+  </locator>
+  <locator name="ele_firstname598">
+    <element type="xpath">//input[@placeholder='First Name']</element>
+    <element type="xpath">//form[@id='basicBootstrapForm']/div/div/input</element>
+    <element type="css">input.form-control.ng-untouched.ng-dirty.ng-valid-parse.ng-valid.ng-valid-required</element>
+    <element type="css">form#basicBootstrapForm &gt; div &gt; div &gt; inputTGWEBCOMMA5</element>
+    <element type="xpath">//input</element>
+    <element type="class">form-control ng-untouched ng-dirty ng-valid-parse ng-valid ng-valid-requiredTGWEBCOMMA1</element>
+    <element type="image">http://192.168.4.15/s/ele-imgs/1750/17226.png</element>
+  </locator>
+  <locator name="ele_Asia4555">
+    <element type="xpath">//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]</element>
+    <element type="image">http://192.168.4.15/s/ele-imgs/1750/17227.png</element>
+  </locator>
+  <locator name="ele_hobbiescri989">
+    <element type="xpath">//div[6]</element>
+    <element type="xpath">//form[@id='basicBootstrapForm']/div[6]</element>
+    <element type="css">body &gt; section:nth-child(2) &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; div:nth-child(2) &gt; form:nth-child(1) &gt; div:nth-child(6)</element>
+    <element type="css">form#basicBootstrapForm &gt; div:nth-of-type(6)TGWEBCOMMA0</element>
+    <element type="class">form-groupTGWEBCOMMA6</element>
+    <element type="image">http://192.168.4.15/s/ele-imgs/1750/19875.png</element>
+  </locator>
+  <locator name="ele_lastname850">
+    <element type="xpath">//input[@placeholder='Last Name']</element>
+    <element type="xpath">//form[@id='basicBootstrapForm']/div/div[2]/input</element>
+    <element type="css">input[placeholder='Last Name']</element>
+    <element type="css">form#basicBootstrapForm &gt; div &gt; div:nth-of-type(2) &gt; inputTGWEBCOMMA0</element>
+    <element type="xpath">//div[2]/input</element>
+    <element type="class">form-control ng-pristine ng-untouched ng-invalid ng-invalid-requiredTGWEBCOMMA2</element>
+    <element type="image">http://192.168.4.15/s/ele-imgs/1750/19876.png</element>
+  </locator>
+  <locator name="ele_lastname320">
+    <element type="xpath">//input[@placeholder='Last Name']</element>
+    <element type="xpath">//form[@id='basicBootstrapForm']/div/div[2]/input</element>
+    <element type="css">input.form-control.ng-untouched.ng-dirty.ng-valid-parse.ng-valid.ng-valid-required</element>
+    <element type="css">form#basicBootstrapForm &gt; div &gt; div:nth-of-type(2) &gt; inputTGWEBCOMMA0</element>
+    <element type="xpath">//div[2]/input</element>
+    <element type="class">form-control ng-untouched ng-dirty ng-valid-parse ng-valid ng-valid-requiredTGWEBCOMMA2</element>
+    <element type="image">http://192.168.4.15/s/ele-imgs/1750/19877.png</element>
+  </locator>
+</locators>

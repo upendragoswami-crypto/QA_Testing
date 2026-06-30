@@ -25,10 +25,14 @@ public class registerdemodata {
 	@Test(retryAnalyzer = RetryFailedTestCases.class)
 	public void registerdemodata() {
 		tg.openBrowser();
-		tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
-		tg.click("ele_firstname556", 1);
-		tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
-		tg.type("ele_firstname556", "hiii");
+				tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
+				tg.click("ele_firstname556", 1);
+				tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
+				tg.type("ele_firstname556", "hiii");
+				tg.wait("ele_lastname850", ComparisonType.IS_VISIBLE);
+				tg.click("ele_lastname850", 1);
+				tg.wait("ele_lastname850", ComparisonType.IS_VISIBLE);
+				tg.type("ele_lastname850", "hi");
 		tg.close();
 	}
 }
