@@ -28,11 +28,12 @@ public class registerdemodata {
 				tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
 				tg.click("ele_firstname556", 1);
 				tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
-				tg.type("ele_firstname556", "hiii");
+				tg.type("ele_firstname556", "#TGITVAR.FirstName");
 				tg.wait("ele_lastname850", ComparisonType.IS_VISIBLE);
 				tg.click("ele_lastname850", 1);
 				tg.wait("ele_lastname850", ComparisonType.IS_VISIBLE);
-				tg.type("ele_lastname850", "hi");
+				tg.type("ele_lastname850", "#TGITVAR.LastName");
+				tg.wait(2);
 		tg.close();
 	}
 }
