@@ -61,7 +61,7 @@
             "cm_test_case_ai": "",
             "cm_network": "157",
             "cm_renderer": "",
-            "view_updated_date_time": "2026-06-30 13:56:43",
+            "view_updated_date_time": "2026-06-30 14:12:57",
             "is_updated": "1",
             "is_complie": "1",
             "server_ids": "",
@@ -175,7 +175,22 @@
                     "created_at": "2026-06-30 14:00:30",
                     "qtest_skip_sync": "1",
                     "test_case_tags": [],
-                    "iterative_test_case": [],
+                    "iterative_test_case": {
+                        "id": "146",
+                        "user_id": "32",
+                        "tc_id": "2990",
+                        "json_url": "",
+                        "json_keys": null,
+                        "test_case": "[{\"where\":\"\",\"rows\":[{\"key\":\"city\",\"operator\":\"=\",\"capability\":\"Surat\",\"where\":\"\"}]}]",
+                        "type": "2",
+                        "api_url": "https://api.mockfly.dev/mocks/0b91ece3-75a1-4abb-83d1-f4401666b57c/tdp",
+                        "api_keys": "city",
+                        "database_object": null,
+                        "database_keys": null,
+                        "api_selected_key": "forth",
+                        "is_using_proxy": "0",
+                        "tdp_api_id": "29"
+                    },
                     "java_file": "/Applications/XAMPP/xamppfiles/htdocs/process/compile-java-executable/344/609/1750/testcases/tc03.java"
                 }
             ],
