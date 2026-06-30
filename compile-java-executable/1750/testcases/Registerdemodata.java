@@ -25,6 +25,7 @@ public class registerdemodata {
 	@Test(retryAnalyzer = RetryFailedTestCases.class)
 	public void registerdemodata() {
 		tg.openBrowser();
+				tg.navigateToUrl("https://demo.automationtesting.in/Register.html");
 				tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
 				tg.click("ele_firstname556", 1);
 				tg.wait("ele_firstname556", ComparisonType.IS_VISIBLE);
