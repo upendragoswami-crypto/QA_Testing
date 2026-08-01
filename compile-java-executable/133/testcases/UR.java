@@ -46,7 +46,7 @@ public class ur {
 				tg.wait("ele_EditText1785584479756", ComparisonType.IS_VISIBLE);
 				tg.click("ele_EditText1785584479756", 1);
 				tg.wait("ele_EditText1785584479756", ComparisonType.IS_VISIBLE);
-				tg.type("ele_EditText1785584479756", "1234", true);
+				tg.type("ele_EditText1785584479756", "Authenticator_TGUpen@@10", true);
 				tg.wait("ele_VerifyButton1785584489455", ComparisonType.IS_VISIBLE);
 				tg.click("ele_VerifyButton1785584489455", 1);
 				tg.wait(5);
